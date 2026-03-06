@@ -105,9 +105,6 @@ OculoMesh-GCN/
 ├── stress_test.py          # Execution script for the environmental gauntlet
 └── requirements.txt        # Environment dependencies
 
-
-
-
 ## ⚙️ Reproducibility & Usage
 
 ### 1. Environment Setup
