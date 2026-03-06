@@ -1,4 +1,4 @@
-# 👁️ OculoMesh GCN
+#  OculoMesh GCN
 **Privacy-Preserving Biometric Authentication via Cryptographically Entangled Graph Neural Networks**
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
