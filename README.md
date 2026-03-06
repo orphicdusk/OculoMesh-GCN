@@ -59,10 +59,9 @@ graph TD
         T -- Yes --> Pass[Authentication Granted]:::success
         T -- No --> Fail[Authentication Denied]:::warning
     end
+```
 
-
-
-    ## 🧠 Graph Convolutional Formulation
+## 🧠 Graph Convolutional Formulation
 
 The network utilizes localized first-order approximations of spectral graph convolutions. For a given node $i$ at layer $l$, the feature propagation is defined as:
 
