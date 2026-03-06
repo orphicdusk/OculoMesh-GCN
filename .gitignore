@@ -1,0 +1,68 @@
+# =========================================
+# OCULOMESH SPECIFIC
+# =========================================
+
+# Datasets and generated graphs
+# (Keeps the folder structure, but ignores the heavy .pt files inside)
+data/raw/*
+!data/raw/.keep
+data/processed/*
+!data/processed/.keep
+*.pt
+
+# Model Weights and Checkpoints
+# (Prevents uploading massive .pth or .ckpt files)
+weights/*
+!weights/.keep
+*.pth
+*.ckpt
+
+# Temporary plot outputs
+*.png
+*.jpg
+*.jpeg
+
+# =========================================
+# PYTHON & ENVIRONMENTS
+# =========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# =========================================
+# JUPYTER NOTEBOOKS & IDEs
+# =========================================
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / PyCharm settings
+.vscode/
+.idea/
+
+# =========================================
+# OS GENERATED FILES
+# =========================================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
